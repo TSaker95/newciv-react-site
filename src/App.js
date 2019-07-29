@@ -30,12 +30,13 @@ function App() {
         <div className="header">
           <h1> Follow my stuff </h1>{" "}
         </div>
-        <div className="section">
-          <h1> What </h1>
-        </div>
-        <div className="section">
-          <h1> What </h1>
-        </div>
+
+        {/* <div className="section">
+          <div className="sectionhalfstyles">
+            <div className="section"> </div>
+            <div className="section"> </div>
+          </div>
+        </div> */}
 
         <div className="section">
           <h1> What </h1>
