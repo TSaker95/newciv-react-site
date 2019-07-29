@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar.js";
 import Footer from "./components/Footer.js";
 import SideBar from "./components/sidebar.js";
 import symbol from "./images/symbolone.png";
+import Slideshow from "./components/Slideshow.js"
+
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <div className="header">
           <h1> WELCOME TO A NEW CIVILISATION </h1>{" "}
         </div>
+
+        <Slideshow />
 
         <div className="section">
           <img className="homescreenimg " src={symbol} alt="Logo" />
