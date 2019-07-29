@@ -1,18 +1,17 @@
 html {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   background-image: url("images/redbackgroundhexgon.png");
-  background-position: center;
-  /* Center the image */
-  background-repeat: repeat;
-  /* Do not repeat the image */
+  background-position: center; /* Center the image */
+  background-repeat: repeat; /* Do not repeat the image */
   background-size: contain;
 }
 
 .nav {
-  background-color: white;
-  border: black;
+  background-color: rgb(255, 255, 255);
+  border: black; //borders are for the purpose of building and development, showing where the component is.
   border-style: solid;
   border-width: 1px;
+  //   padding: 2%;
   height: 60px;
   position: fixed;
   width: 100%;
@@ -27,38 +26,39 @@ html {
 
 .header {
   margin: 0%;
-  background-color: #534f4f;
+  background-color: rgb(83, 79, 79);
   background-image: url("images/black.png");
-  border: black;
+  border: black; //borders are for the purpose of building and development, showing where the component is.
   border-style: solid;
   border-width: 1px;
-}
 
-.header h1 {
-  color: white;
-  text-align: center;
+  h1 {
+    color: white;
+    text-align: center;
+  }
 }
-
 .section {
   margin: 1%;
-  background-color: white;
-  border: black;
+  background-color: rgb(255, 255, 255);
+  border: black; //borders are for the purpose of building and development, showing where the component is.
   border-style: solid;
   border-width: 1px;
 }
 
 .footer {
-  background-color: white;
-  border: black;
+  background-color: rgb(255, 255, 255);
+  border: black; //borders are for the purpose of building and development, showing where the component is.
   border-style: solid;
   border-width: 1px;
+  //   padding: 2%;
   height: 60px;
 }
 
 .pagemargin {
+  //This controls the margin of the entire homepage
   margin: 5% 7.5% 1% 7.5%;
-  background-color: #b3b3b3;
-  border: black;
+  background-color: rgb(179, 179, 179);
+  border: black; //borders are for the purpose of building and development, showing where the component is.
   border-style: solid;
   border-width: 1px;
   background-image: url("images/red.png");
@@ -67,25 +67,24 @@ html {
 .navlinkholder {
   margin: 0% 20% 0% 20%;
 }
-
 .imglinks {
   width: 100px;
   height: 50px;
   margin: 0.5% 1% 0.5% 1.25%;
-  border: red;
+  border: rgb(255, 0, 0);
   border-style: solid;
   border-width: 1px;
   border-radius: 20%;
+
+  &:hover {
+    transform: scale(1.1);
+    opacity: 1000;
+    box-shadow: 1px 1px 100px rgb(255, 196, 0);
+    overflow: hidden;
+  }
 }
 
-.imglinks:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  opacity: 1000;
-  -webkit-box-shadow: 1px 1px 100px #ffc400;
-          box-shadow: 1px 1px 100px #ffc400;
-  overflow: hidden;
-}
+//hamburger stuff
 
 html,
 body {
@@ -94,12 +93,14 @@ body {
 
 #App {
   font-family: sans-serif;
+
   /* Give app full page to work with */
   height: 100vh;
 }
 
 #page-wrap {
   text-align: center;
+
   /* Prevent sidebar from showing a scrollbar on page */
   overflow: auto;
 }
@@ -107,11 +108,11 @@ body {
 /* Individual item */
 .bm-item {
   display: inline-block;
+
   /* Our sidebar item styling */
   text-decoration: none;
   margin-bottom: 10px;
   color: #d1d1d1;
-  -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
 
@@ -121,6 +122,7 @@ body {
 }
 
 /* The rest copied directly from react-burger-menu docs */
+
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
@@ -131,7 +133,7 @@ body {
   background-image: url("images/symbol.png");
   background-position: center;
   background-size: 100%;
-  border: black;
+  border: black; //borders are for the purpose of building and development, showing where the component is.
   border-style: solid;
   border-width: 1px;
 }
@@ -185,8 +187,8 @@ body {
   .nav {
     margin-top: 0%;
   }
+
   .header {
     margin-top: 20%;
   }
 }
-/*# sourceMappingURL=App.css.map */
