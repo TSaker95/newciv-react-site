@@ -1,6 +1,6 @@
 html {
   background-color: rgb(0, 0, 0);
-  background-image: url("images/backgrounddarkred.png");
+  background-image: url("images/blacktest.png");
   background-position: center; /* Center the image */
   background-repeat: repeat; /* Do not repeat the image */
   background-size: contain;
@@ -10,12 +10,15 @@ html {
   background-color: rgb(255, 255, 255);
   border: black; //borders are for the purpose of building and development, showing where the component is.
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   //   padding: 2%;
   height: 60px;
   position: fixed;
   width: 100%;
-  margin-top: -72px;
+  margin-top: -95px;
+  background-image: url("images/white.png");
+  // background-size: contain;
+  z-index: 1;
 }
 
 .homescreenimg {
@@ -30,19 +33,106 @@ html {
   background-image: url("images/black.png");
   border: black; //borders are for the purpose of building and development, showing where the component is.
   border-style: solid;
-  border-width: 1px;
+  border-width: 5px;
+  background-image: url("images/blacktest.png");
+  background-position: center; /* Center the image */
+  background-repeat: repeat; /* Do not repeat the image */
+  background-size: contain;
 
-  h1 {
-    color: white;
-    text-align: center;
-  }
+  // h1 {
+  //   color: white;
+  //   text-align: center;
+  // }
 }
+.sectionslideshow {
+  margin: 1%;
+  background-color: rgb(255, 255, 255);
+  border: black; //borders are for the purpose of building and development, showing where the component is.
+  border-style: solid;
+  border-width: 1px;
+  background-image: url("images/white.png");
+  background-repeat: repeat; /* Do not repeat the image */
+  // background-size: contain;
+}
+
+.imgart {
+  display: flex;
+  flex: wrap;
+  width: 80%;
+  height: auto;
+  margin: 2% 10% 1% 10%;
+  border: rgb(255, 0, 0);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 40% 40%;
+}
+
 .section {
   margin: 1%;
   background-color: rgb(255, 255, 255);
   border: black; //borders are for the purpose of building and development, showing where the component is.
   border-style: solid;
   border-width: 1px;
+  display: flex;
+  flex: wrap;
+}
+.sectionhalf {
+  // display: flex;
+  flex: wrap;
+  margin: 1%;
+  background-color: rgb(255, 255, 255);
+  border: black; //borders are for the purpose of building and development, showing where the component is.
+  border-style: solid;
+  border-width: 1px;
+  width: 50%;
+  background-image: url("images/white.png");
+  background-repeat: repeat;
+
+  p {
+    margin: 5%;
+    background: rgb(243, 243, 243);
+    border: #000000;
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  h1 {
+    // width: 100%;
+    text-align: center;
+    display: flex;
+    flex: wrap;
+    margin: 2%;
+    padding: 1%;
+    position: relative;
+    background: #000000;
+    color: white;
+    border: rgba(
+      253,
+      253,
+      253,
+      0.438
+    ); //borders are for the purpose of building and development, showing where the component is.
+    border-style: solid;
+    border-width: 2px;
+  }
+}
+
+// .sectionquater {
+//   display: flex;
+//   flex: wrap;
+//   margin: 1%;
+//   background-color: rgb(255, 255, 255);
+//   border: black; //borders are for the purpose of building and development, showing where the component is.
+//   border-style: solid;
+//   border-width: 1px;
+//   width: 100%;
+// }
+.sectiontext {
+  padding: 1% 5% 1% 5%;
+  text-align: left;
+  font-size: 1.5rem;
+  // font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
 }
 
 .footer {
@@ -57,11 +147,11 @@ html {
 .pagemargin {
   //This controls the margin of the entire homepage
   margin: 5% 7.5% 1% 7.5%;
-  background-color: rgb(179, 179, 179);
+  background-color: maroon;
   border: black; //borders are for the purpose of building and development, showing where the component is.
   border-style: solid;
   border-width: 1px;
-  background-image: url("images/red.png");
+  // background-image: url("images/symbolblackandred.png");
 }
 
 .navlinkholder {
@@ -79,7 +169,7 @@ html {
   &:hover {
     transform: scale(1.1);
     opacity: 1000;
-    box-shadow: 1px 1px 100px rgb(255, 196, 0);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
     overflow: hidden;
   }
 }
@@ -114,6 +204,12 @@ body {
   margin-bottom: 10px;
   color: #d1d1d1;
   transition: color 0.2s;
+  &:hover {
+    transform: scale(1.01);
+    opacity: 1000;
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    overflow: hidden;
+  }
 }
 
 /* Change color on hover */
@@ -136,6 +232,12 @@ body {
   border: black; //borders are for the purpose of building and development, showing where the component is.
   border-style: solid;
   border-width: 1px;
+  &:hover {
+    transform: scale(1.1);
+    opacity: 1000;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    overflow: hidden;
+  }
 }
 
 /* Color/shape of burger icon bars */
@@ -148,6 +250,12 @@ body {
 .bm-cross-button {
   height: 24px;
   width: 24px;
+  &:hover {
+    transform: scale(1.1);
+    opacity: 1000;
+    box-shadow: 1px 1px 1px rgb(255, 255, 255);
+    overflow: hidden;
+  }
 }
 
 /* Color/shape of close button cross */
@@ -160,6 +268,12 @@ body {
   background: #373a47;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  &:hover {
+    transform: scale(1.01);
+    opacity: 1000;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    overflow: hidden;
+  }
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -196,19 +310,30 @@ h3 {
   background: no-repeat;
   background-size: 90%;
   background-position: center;
-  height: 600px;
-  border: black; //borders are for the purpose of building and development, showing where the component is.
+  height: 650px;
+  border: black;
   border-style: solid;
   border-width: 1px;
   margin: 2%;
+  box-shadow: 1px 1px 100px rgb(0, 0, 0);
+  &:hover {
+    transform: scale(1.01);
+  }
 }
 
 .each-slide span {
-  padding-left: 2px;
-  padding-top: 2px;
-  font-size: 20px;
-  background: #efefef;
+  padding: 4px;
+  font-size: 30px;
+  background: rgb(53, 51, 51);
+  color: white;
   text-align: center;
+  margin-left: -73%;
+  margin-top: -36%;
+  border: rgba(255, 0, 0, 0.589);
+  border-style: solid;
+  border-width: 2px;
+  // box-shadow: 2px 2px 1px rgb(2, 2, 2);
+  // opacity: 0.5;
 }
 
 .each-fade {
@@ -233,6 +358,20 @@ h3 {
   background: #adceed;
 }
 
+.h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 3rem;
+  margin: 1% 25% 1% 25%;
+  padding: 1px;
+  text-align: center;
+  // text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  // box-shadow: 1px 1px 100px rgb(255, 255, 255);
+}
+
+// this must always be at the bottom of the css it seems
+
 @media only screen and (max-width: 700px) {
   .navlinkholder {
     visibility: hidden;
@@ -255,5 +394,15 @@ h3 {
   .each-slide span {
     padding: 5px;
     font-size: 0.5rem;
+    margin-left: 0%;
+    margin-top: 50%;
+  }
+  .h1 {
+    font-size: 1.2rem;
+    margin: 1%;
+  }
+
+  .sectiontext {
+    font-size: 1rem;
   }
 }

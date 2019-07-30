@@ -1,6 +1,6 @@
 html {
   background-color: black;
-  background-image: url("images/backgrounddarkred.png");
+  background-image: url("images/blacktest.png");
   background-position: center;
   /* Center the image */
   background-repeat: repeat;
@@ -12,11 +12,13 @@ html {
   background-color: white;
   border: black;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   height: 60px;
   position: fixed;
   width: 100%;
-  margin-top: -72px;
+  margin-top: -95px;
+  background-image: url("images/white.png");
+  z-index: 1;
 }
 
 .homescreenimg {
@@ -31,12 +33,40 @@ html {
   background-image: url("images/black.png");
   border: black;
   border-style: solid;
-  border-width: 1px;
+  border-width: 5px;
+  background-image: url("images/blacktest.png");
+  background-position: center;
+  /* Center the image */
+  background-repeat: repeat;
+  /* Do not repeat the image */
+  background-size: contain;
 }
 
-.header h1 {
-  color: white;
-  text-align: center;
+.sectionslideshow {
+  margin: 1%;
+  background-color: white;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+  background-image: url("images/white.png");
+  background-repeat: repeat;
+  /* Do not repeat the image */
+}
+
+.imgart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  width: 80%;
+  height: auto;
+  margin: 2% 10% 1% 10%;
+  border: red;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 40% 40%;
 }
 
 .section {
@@ -45,6 +75,59 @@ html {
   border: black;
   border-style: solid;
   border-width: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+}
+
+.sectionhalf {
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  margin: 1%;
+  background-color: white;
+  border: black;
+  border-style: solid;
+  border-width: 1px;
+  width: 50%;
+  background-image: url("images/white.png");
+  background-repeat: repeat;
+}
+
+.sectionhalf p {
+  margin: 5%;
+  background: #f3f3f3;
+  border: #000000;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.sectionhalf h1 {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  margin: 2%;
+  padding: 1%;
+  position: relative;
+  background: #000000;
+  color: white;
+  border: rgba(253, 253, 253, 0.438);
+  border-style: solid;
+  border-width: 2px;
+}
+
+.sectiontext {
+  padding: 1% 5% 1% 5%;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .footer {
@@ -57,11 +140,10 @@ html {
 
 .pagemargin {
   margin: 5% 7.5% 1% 7.5%;
-  background-color: #b3b3b3;
+  background-color: maroon;
   border: black;
   border-style: solid;
   border-width: 1px;
-  background-image: url("images/red.png");
 }
 
 .navlinkholder {
@@ -82,8 +164,8 @@ html {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   opacity: 1000;
-  -webkit-box-shadow: 1px 1px 100px #ffc400;
-          box-shadow: 1px 1px 100px #ffc400;
+  -webkit-box-shadow: 10px 10px 10px black;
+          box-shadow: 10px 10px 10px black;
   overflow: hidden;
 }
 
@@ -115,6 +197,15 @@ body {
   transition: color 0.2s;
 }
 
+.bm-item:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  opacity: 1000;
+  -webkit-box-shadow: 1px 1px 15px black;
+          box-shadow: 1px 1px 15px black;
+  overflow: hidden;
+}
+
 /* Change color on hover */
 .bm-item:hover {
   color: white;
@@ -136,6 +227,15 @@ body {
   border-width: 1px;
 }
 
+.bm-burger-button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1000;
+  -webkit-box-shadow: 10px 10px 10px black;
+          box-shadow: 10px 10px 10px black;
+  overflow: hidden;
+}
+
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #373a47;
@@ -148,6 +248,15 @@ body {
   width: 24px;
 }
 
+.bm-cross-button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1000;
+  -webkit-box-shadow: 1px 1px 1px white;
+          box-shadow: 1px 1px 1px white;
+  overflow: hidden;
+}
+
 /* Color/shape of close button cross */
 .bm-cross {
   background: #bdc3c7;
@@ -158,6 +267,15 @@ body {
   background: #373a47;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+}
+
+.bm-menu:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  opacity: 1000;
+  -webkit-box-shadow: 10px 10px 10px black;
+          box-shadow: 10px 10px 10px black;
+  overflow: hidden;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -202,19 +320,31 @@ h3 {
   background: no-repeat;
   background-size: 90%;
   background-position: center;
-  height: 600px;
+  height: 650px;
   border: black;
   border-style: solid;
   border-width: 1px;
   margin: 2%;
+  -webkit-box-shadow: 1px 1px 100px black;
+          box-shadow: 1px 1px 100px black;
+}
+
+.each-slide > div:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
 }
 
 .each-slide span {
-  padding-left: 2px;
-  padding-top: 2px;
-  font-size: 20px;
-  background: #efefef;
+  padding: 4px;
+  font-size: 30px;
+  background: #353333;
+  color: white;
   text-align: center;
+  margin-left: -73%;
+  margin-top: -36%;
+  border: rgba(255, 0, 0, 0.589);
+  border-style: solid;
+  border-width: 2px;
 }
 
 .each-fade {
@@ -247,6 +377,16 @@ h3 {
   background: #adceed;
 }
 
+.h1 {
+  color: white;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 3rem;
+  margin: 1% 25% 1% 25%;
+  padding: 1px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
 @media only screen and (max-width: 700px) {
   .navlinkholder {
     visibility: hidden;
@@ -268,6 +408,15 @@ h3 {
   .each-slide span {
     padding: 5px;
     font-size: 0.5rem;
+    margin-left: 0%;
+    margin-top: 50%;
+  }
+  .h1 {
+    font-size: 1.2rem;
+    margin: 1%;
+  }
+  .sectiontext {
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=App.css.map */
