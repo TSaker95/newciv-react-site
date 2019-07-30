@@ -67,6 +67,47 @@ html {
   border-radius: 40% 40%;
 }
 
+.imgicons {
+  display: flex;
+  flex: wrap;
+  width: 150px;
+  height: 100px;
+  margin: 5% 0% 5% -10%;
+  border: rgb(255, 0, 0);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 40% 40%;
+}
+
+.icontext {
+  display: flex;
+  flex: wrap;
+  width: 100%;
+  padding: 0%;
+  text-align: left;
+  font-size: 1.5rem;
+  // margin: 0% 0% 0% 1%;
+  // font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.iconsection {
+  margin: 0%;
+  background-color: rgb(255, 255, 255);
+  border: rgba(
+    78,
+    78,
+    78,
+    0.452
+  ); //borders are for the purpose of building and development, showing where the component is.
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex: wrap;
+  p {
+    margin: 1%;
+    padding: 2.5%;
+  }
+}
 .section {
   margin: 1%;
   background-color: rgb(255, 255, 255);
@@ -88,7 +129,7 @@ html {
   background-image: url("images/white.png");
   background-repeat: repeat;
 
-  p {
+  #p1 {
     margin: 5%;
     background: rgb(243, 243, 243);
     border: #000000;
@@ -117,16 +158,6 @@ html {
   }
 }
 
-// .sectionquater {
-//   display: flex;
-//   flex: wrap;
-//   margin: 1%;
-//   background-color: rgb(255, 255, 255);
-//   border: black; //borders are for the purpose of building and development, showing where the component is.
-//   border-style: solid;
-//   border-width: 1px;
-//   width: 100%;
-// }
 .sectiontext {
   padding: 1% 5% 1% 5%;
   text-align: left;
@@ -404,5 +435,19 @@ h3 {
 
   .sectiontext {
     font-size: 1rem;
+  }
+  .section {
+    display: flex;
+    flex-flow: column;
+  }
+  .sectionhalf {
+    width: 100%;
+  }
+  .icontext {
+    font-size: 1rem;
+  }
+  .imgicons {
+    width: 100px;
+    height: auto;
   }
 }
