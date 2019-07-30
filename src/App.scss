@@ -65,6 +65,14 @@ html {
   border-style: solid;
   border-width: 2px;
   border-radius: 40% 40%;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+
+  &:hover {
+    transform: scale(1.01);
+    opacity: 1000;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    overflow: hidden;
+  }
 }
 
 .imgicons {
@@ -77,6 +85,14 @@ html {
   border-style: solid;
   border-width: 2px;
   border-radius: 40% 40%;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+
+  &:hover {
+    transform: scale(1.01);
+    opacity: 1000;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    overflow: hidden;
+  }
 }
 
 .icontext {
