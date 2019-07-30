@@ -46,7 +46,58 @@ function App() {
               - Drawings <br />- Cosplays
             </p>
           </div>
-          <div className="sectionhalf"> what </div>
+
+          <div className="sectionhalf">
+            <div className="section">
+              <p className="sectiontext">
+                The Network: Discover the vast supercomputer that runs the
+                nation itself!
+              </p>
+              <div className="section">
+                <img className="imgart" src={art} alt="Logo" />
+              </div>
+            </div>
+            <div className="section">
+              <p className="sectiontext">
+                The Movement: Before the Nation, there was the movement
+              </p>
+              <div className="section">
+                <img className="imgart" src={art} alt="Logo" />
+              </div>
+            </div>
+            <div className="section">
+              <p className="sectiontext">
+                The Science Union: "We are the Universe understanding itself"
+              </p>
+              <div className="section">
+                <img className="imgart" src={art} alt="Logo" />
+              </div>
+            </div>
+            <div className="section">
+              <p className="sectiontext">
+                The Knight Program: The Nations Political and military elite
+              </p>
+              <div className="section">
+                <img className="imgart" src={art} alt="Logo" />
+              </div>
+            </div>
+            <div className="section">
+              <p className="sectiontext">
+                The World: The Geographic and Political system of The Nation
+              </p>
+              <div className="section">
+                <img className="imgart" src={art} alt="Logo" />
+              </div>
+            </div>
+            <div className="section">
+              <p className="sectiontext">
+                C.O.M.M.A.N.D: "When it speaks, you listen"
+              </p>
+              <div className="section">
+                <img className="imgart" src={art} alt="Logo" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
