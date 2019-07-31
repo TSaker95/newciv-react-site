@@ -41,6 +41,15 @@ function App() {
           <Arthomepage />
           <Iconlist />
         </div>
+
+        <div className="header">
+          <h1 className="h1"> Follow Me</h1>
+        </div>
+        <div className="section">
+          <div className="sectiontext">
+            <p> </p>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>
