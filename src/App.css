@@ -205,6 +205,17 @@ html {
           box-shadow: 1px 1px 5px 5px black;
 }
 
+.sectiontextfollow {
+  padding: 1% 5% 1% 5%;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 3%;
+  -webkit-box-shadow: 1px 1px 5px 5px black;
+          box-shadow: 1px 1px 5px 5px black;
+  width: 100%;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;

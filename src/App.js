@@ -47,7 +47,7 @@ function App() {
           <h1 className="h1"> Follow Me</h1>
         </div>
         <div className="section">
-          <div className="sectiontext">
+          <div className="sectiontextfollow">
             <p>
               Checkout my Facebook page:
               <a href="https://www.facebook.com/ANewCivilisation/">
