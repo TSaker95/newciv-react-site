@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/TSaker95/newciv-react-site/static/css/main.7e3c8f38.chunk.css",
+    "main.js": "/TSaker95/newciv-react-site/static/js/main.406f1501.chunk.js",
+    "main.js.map": "/TSaker95/newciv-react-site/static/js/main.406f1501.chunk.js.map",
+    "runtime~main.js": "/TSaker95/newciv-react-site/static/js/runtime~main.e68ad69a.js",
+    "runtime~main.js.map": "/TSaker95/newciv-react-site/static/js/runtime~main.e68ad69a.js.map",
+    "static/css/2.55521911.chunk.css": "/TSaker95/newciv-react-site/static/css/2.55521911.chunk.css",
+    "static/js/2.dd0d7c04.chunk.js": "/TSaker95/newciv-react-site/static/js/2.dd0d7c04.chunk.js",
+    "static/js/2.dd0d7c04.chunk.js.map": "/TSaker95/newciv-react-site/static/js/2.dd0d7c04.chunk.js.map",
+    "index.html": "/TSaker95/newciv-react-site/index.html",
+    "precache-manifest.72dfad23c53525d4dbdfd779dbef795d.js": "/TSaker95/newciv-react-site/precache-manifest.72dfad23c53525d4dbdfd779dbef795d.js",
+    "service-worker.js": "/TSaker95/newciv-react-site/service-worker.js",
+    "static/css/2.55521911.chunk.css.map": "/TSaker95/newciv-react-site/static/css/2.55521911.chunk.css.map",
+    "static/css/main.7e3c8f38.chunk.css.map": "/TSaker95/newciv-react-site/static/css/main.7e3c8f38.chunk.css.map",
+    "static/media/Artofthenation.png": "/TSaker95/newciv-react-site/static/media/Artofthenation.1ec04288.png",
+    "static/media/Science.png": "/TSaker95/newciv-react-site/static/media/Science.25f23c96.png",
+    "static/media/App.css": "/TSaker95/newciv-react-site/static/media/white.c0cb5218.png",
+    "static/media/command.png": "/TSaker95/newciv-react-site/static/media/command.c30244bd.png",
+    "static/media/drawing1.jpg": "/TSaker95/newciv-react-site/static/media/drawing1.54df49b4.jpg",
+    "static/media/knight.png": "/TSaker95/newciv-react-site/static/media/knight.c689cadb.png",
+    "static/media/logo.svg": "/TSaker95/newciv-react-site/static/media/logo.5d5d9eef.svg",
+    "static/media/movement.png": "/TSaker95/newciv-react-site/static/media/movement.c46cd91f.png",
+    "static/media/network.png": "/TSaker95/newciv-react-site/static/media/network.bd12cb1f.png",
+    "static/media/symbolone.png": "/TSaker95/newciv-react-site/static/media/symbolone.b5c4faca.png",
+    "static/media/symbolwhite.png": "/TSaker95/newciv-react-site/static/media/symbolwhite.85fabf24.png",
+    "static/media/tankside.png": "/TSaker95/newciv-react-site/static/media/tankside.a9f946ec.png",
+    "static/media/world.png": "/TSaker95/newciv-react-site/static/media/world.4d9bb8aa.png"
+  }
+}
