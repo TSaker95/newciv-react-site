@@ -209,11 +209,12 @@ html {
       -ms-flex: wrap;
           flex: wrap;
   background-color: white;
-  border: black;
+  border: #7e7d7d;
   border-style: solid;
   border-width: 1px;
   height: auto;
   background-image: url("images/white.png");
+  margin: 0% 7.5% 0% 7.5%;
 }
 
 .footertext {
