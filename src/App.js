@@ -26,10 +26,10 @@ function App() {
         <div className="section">
           <div className="sectiontext">
             <p>
-              Introduction: <br /> <br /> Welcome to the website of my book: 'A
-              New Civilisation'. Here you can check out some of the book related
-              art and projects I have made, as well as explore 'The Nation'. The
-              new world order of the 22nd century!
+              Welcome to the website of my book: 'A New Civilisation'. Here you
+              can check out some of the book related art and projects I have
+              made, as well as explore 'The Nation'. The new world order of the
+              22nd century!
             </p>
           </div>
         </div>
