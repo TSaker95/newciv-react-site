@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca84c2d8d046295d7c1e01fb14730ce6",
+    "revision": "946876d16890208eacc4350006a2423b",
     "url": "/newciv-react-site/index.html"
   },
   {
-    "revision": "6417053e91d34245abfa",
+    "revision": "8820f122ee50ad4d57a4",
     "url": "/newciv-react-site/static/css/2.55521911.chunk.css"
   },
   {
-    "revision": "59c0afefaa2d0cf91cb6",
+    "revision": "8d9584bfca83647da54b",
     "url": "/newciv-react-site/static/css/main.d52941f7.chunk.css"
   },
   {
-    "revision": "6417053e91d34245abfa",
-    "url": "/newciv-react-site/static/js/2.dd0d7c04.chunk.js"
+    "revision": "8820f122ee50ad4d57a4",
+    "url": "/newciv-react-site/static/js/2.cf18b46c.chunk.js"
   },
   {
-    "revision": "59c0afefaa2d0cf91cb6",
-    "url": "/newciv-react-site/static/js/main.0a196bda.chunk.js"
+    "revision": "8d9584bfca83647da54b",
+    "url": "/newciv-react-site/static/js/main.efe96425.chunk.js"
   },
   {
     "revision": "78ca354f8b4244e7b3b2",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/newciv-react-site/static/media/Artofthenation.1ec04288.png"
   },
   {
-    "revision": "25f23c9620baa47820e42c9199d38ce2",
-    "url": "/newciv-react-site/static/media/Science.25f23c96.png"
+    "revision": "2289678be94f8ab89da4e8e4f7fa911a",
+    "url": "/newciv-react-site/static/media/Science.2289678b.png"
   },
   {
     "revision": "5072892de9acf6cf60eb8837e24e58bf",
@@ -52,10 +52,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/newciv-react-site/static/media/knight.c689cadb.png"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/newciv-react-site/static/media/logo.5d5d9eef.svg"
-  },
-  {
     "revision": "c46cd91fa0b427859a7bb1fa17156bd4",
     "url": "/newciv-react-site/static/media/movement.c46cd91f.png"
   },
@@ -66,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0191128408a52ba6f455b584e194a63c",
     "url": "/newciv-react-site/static/media/symbol.01911284.png"
-  },
-  {
-    "revision": "b5c4facab2d94e3d799abc86cb69e03e",
-    "url": "/newciv-react-site/static/media/symbolone.b5c4faca.png"
   },
   {
     "revision": "85fabf241f3959fb6df396571301f2e5",
