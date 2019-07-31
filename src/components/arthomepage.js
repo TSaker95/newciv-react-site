@@ -1,10 +1,5 @@
 import React from "react";
-import knight from "../images/knight.png";
-import command from "../images/command.png";
-import projects from "../images/network.png";
-import movement from "../images/movement.png";
-import science from "../images/Science.png";
-import world from "../images/world.png";
+
 import art from "../images/Artofthenation.png";
 
 export default function Arthomepage() {

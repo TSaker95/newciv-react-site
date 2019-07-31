@@ -1,14 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
 import Navbar from "./components/Navbar.js";
 import Footer from "./components/Footer.js";
 import SideBar from "./components/sidebar.js";
-import symbol from "./images/symbolone.png";
+
 import Slideshow from "./components/Slideshow.js";
-import art from "./images/Artofthenation.png";
+
 import Iconlist from "./components/iconlist.js";
 import Arthomepage from "./components/arthomepage.js";
+
 function App() {
   return (
     <div>
@@ -47,10 +48,35 @@ function App() {
         </div>
         <div className="section">
           <div className="sectiontext">
-            <p> </p>
+            <p>
+              Checkout my Facebook page:
+              <a href="https://www.facebook.com/ANewCivilisation/">
+                "https://www.facebook.com/ANewCivilisation/"
+              </a>
+            </p>
+            <p>
+              Follow my Instagram:
+              <a href="https://www.instagram.com/anewcivilisation/?hl=en">
+                "https://www.instagram.com/anewcivilisation/?hl=en"
+              </a>
+            </p>
+            <p>
+              My Old Site:
+              <a href="https://tsaker95.github.io/A_New_Civilisation/index.html">
+                "https://tsaker95.github.io/A_New_Civilisation/index.html"
+              </a>
+            </p>
+            <p>
+              {" "}
+              Follow me on linked in:{" "}
+              <a href="https://www.linkedin.com/in/torryn-saker-319912b5/">
+                "https://www.linkedin.com/in/torryn-saker-319912b5/"
+              </a>
+            </p>
           </div>
         </div>
       </div>
+
       <Footer />
     </div>
   );
