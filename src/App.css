@@ -28,7 +28,7 @@ html {
 }
 
 .header {
-  margin: 0%;
+  margin-top: 0%;
   background-color: #534f4f;
   background-image: url("images/black.png");
   border: black;
