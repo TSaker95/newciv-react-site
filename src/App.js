@@ -46,22 +46,22 @@ function App() {
         <div className="header">
           <h1 className="h1"> Follow Me</h1>
         </div>
-        <div className="section">
+        <div className="sectionslideshow">
           <div className="sectiontextfollow">
             <p>
-              Checkout my Facebook page:
+              Checkout my Facebook page:{" "}
               <a href="https://www.facebook.com/ANewCivilisation/">
                 "https://www.facebook.com/ANewCivilisation/"
               </a>
             </p>
             <p>
-              Follow my Instagram:
+              Follow my Instagram:{" "}
               <a href="https://www.instagram.com/anewcivilisation/?hl=en">
                 "https://www.instagram.com/anewcivilisation/?hl=en"
               </a>
             </p>
             <p>
-              My Old Site:
+              My old website:{" "}
               <a href="https://tsaker95.github.io/A_New_Civilisation/index.html">
                 "https://tsaker95.github.io/A_New_Civilisation/index.html"
               </a>

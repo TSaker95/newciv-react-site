@@ -45,7 +45,7 @@ export default function Iconlist() {
       </div>
       <div className="iconsection">
         <p className="icontext">
-          The World: The Geographic and Political system of The Nation
+          The World Order: The Geographic and Political system of The Nation
         </p>
         <div>
           <img className="imgicons" src={world} alt="Logo" />
