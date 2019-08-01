@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/newciv-react-site/static/css/main.36850834.chunk.css",
+    "main.css": "/newciv-react-site/static/css/main.f873b77d.chunk.css",
     "main.js": "/newciv-react-site/static/js/main.1de2c96d.chunk.js",
     "main.js.map": "/newciv-react-site/static/js/main.1de2c96d.chunk.js.map",
     "runtime~main.js": "/newciv-react-site/static/js/runtime~main.d1afbc17.js",
@@ -9,10 +9,10 @@
     "static/js/2.cf18b46c.chunk.js": "/newciv-react-site/static/js/2.cf18b46c.chunk.js",
     "static/js/2.cf18b46c.chunk.js.map": "/newciv-react-site/static/js/2.cf18b46c.chunk.js.map",
     "index.html": "/newciv-react-site/index.html",
-    "precache-manifest.8b0b53eb8477a720723cea30826847cf.js": "/newciv-react-site/precache-manifest.8b0b53eb8477a720723cea30826847cf.js",
+    "precache-manifest.ff9664a6aa39143bc8c1ffaf42f1caaa.js": "/newciv-react-site/precache-manifest.ff9664a6aa39143bc8c1ffaf42f1caaa.js",
     "service-worker.js": "/newciv-react-site/service-worker.js",
     "static/css/2.55521911.chunk.css.map": "/newciv-react-site/static/css/2.55521911.chunk.css.map",
-    "static/css/main.36850834.chunk.css.map": "/newciv-react-site/static/css/main.36850834.chunk.css.map",
+    "static/css/main.f873b77d.chunk.css.map": "/newciv-react-site/static/css/main.f873b77d.chunk.css.map",
     "static/media/Artofthenation.png": "/newciv-react-site/static/media/Artofthenation.1ec04288.png",
     "static/media/Science.png": "/newciv-react-site/static/media/Science.2289678b.png",
     "static/media/App.css": "/newciv-react-site/static/media/white.c0cb5218.png",
