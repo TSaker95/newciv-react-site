@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58b1e60f3e8514a2a3572af0ff559336",
+    "revision": "d2008a9adc3d71fd937ec208fc11fc47",
     "url": "/newciv-react-site/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/newciv-react-site/static/css/2.55521911.chunk.css"
   },
   {
-    "revision": "6348296a859b0e68d8f7",
+    "revision": "ecb5fa68129b0049329c",
     "url": "/newciv-react-site/static/css/main.f873b77d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/newciv-react-site/static/js/2.cf18b46c.chunk.js"
   },
   {
-    "revision": "6348296a859b0e68d8f7",
-    "url": "/newciv-react-site/static/js/main.1de2c96d.chunk.js"
+    "revision": "ecb5fa68129b0049329c",
+    "url": "/newciv-react-site/static/js/main.4528ec74.chunk.js"
   },
   {
     "revision": "78ca354f8b4244e7b3b2",
