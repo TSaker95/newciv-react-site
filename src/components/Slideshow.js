@@ -20,23 +20,30 @@ const properties = {
 
 const Slideshow = () => {
   return (
-    <Slide {...properties}>
-      <div className="each-slide">
-        <div style={{ backgroundImage: `url(${slideImages[0]})` }}>
-          <span>Explore The Nation</span>
-        </div>
+    <div>
+      <div className="header">
+        <h1 className="h1"> "Welcome To A New Civilisation" </h1>
       </div>
-      <div className="each-slide">
-        <div style={{ backgroundImage: `url(${slideImages[1]})` }}>
-          <span>3D Printing The Nation</span>
-        </div>
+      <div className="sectionslideshow">
+        <Slide {...properties}>
+          <div className="each-slide">
+            <div style={{ backgroundImage: `url(${slideImages[0]})` }}>
+              <span>Explore The Nation</span>
+            </div>
+          </div>
+          <div className="each-slide">
+            <div style={{ backgroundImage: `url(${slideImages[1]})` }}>
+              <span>3D Printing The Nation</span>
+            </div>
+          </div>
+          <div className="each-slide">
+            <div style={{ backgroundImage: `url(${slideImages[2]})` }}>
+              <span>Drawings of The Nation</span>
+            </div>
+          </div>
+        </Slide>
       </div>
-      <div className="each-slide">
-        <div style={{ backgroundImage: `url(${slideImages[2]})` }}>
-          <span>Drawings of The Nation</span>
-        </div>
-      </div>
-    </Slide>
+    </div>
   );
 };
 
