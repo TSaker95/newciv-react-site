@@ -583,9 +583,15 @@ h3 {
   .sectiontextfollow {
     font-size: 0.9rem;
     width: auto;
+    -webkit-box-shadow: 1px 1px 5px 5px black;
+            box-shadow: 1px 1px 5px 5px black;
   }
   .sectiontextfollow a {
-    font-size: 0.65rem;
+    font-size: 0.63rem;
+  }
+  .sectiontextfollow p {
+    -webkit-box-shadow: 1px 1px 5px 5px #ecebeb;
+            box-shadow: 1px 1px 5px 5px #ecebeb;
   }
   .section {
     display: -webkit-box;
