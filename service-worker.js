@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/newciv-react-site/precache-manifest.40e97cc50c6ac21a3cb2c4284da2d515.js"
+  "/newciv-react-site/precache-manifest.8b0b53eb8477a720723cea30826847cf.js"
 );
 
 self.addEventListener('message', (event) => {
