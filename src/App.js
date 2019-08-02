@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar.js";
 import Footer from "./components/Footer.js";
-import SideBar from "./components/sidebar.js";
+import Side from "./components/sidebar.js";
 import Slideshow from "./components/Slideshow.js";
 import Introparagraph from "./components/introparagraph";
 import Iconlist from "./components/iconlist.js";
@@ -12,7 +12,7 @@ import Follow from "./components/followme.js";
 function App() {
   return (
     <div>
-      <SideBar />
+      <Side />
       <Navbar />
       <div className="pagemargin">
         <Slideshow />

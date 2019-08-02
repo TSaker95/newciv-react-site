@@ -259,11 +259,19 @@ html {
 .pagemargin {
   //This controls the margin of the entire homepage
   margin: 5% 7.5% 1% 7.5%;
-  background-color: maroon;
+  background-color: rgba(128, 0, 0, 0.808);
   border: black; //borders are for the purpose of building and development, showing where the component is.
   border-style: solid;
   border-width: 1px;
-  // background-image: url("images/symbolblackandred.png");
+}
+
+.pagemarginart {
+  //This controls the margin of the entire Art amd projects page
+  margin: 5% 7.5% 1% 7.5%;
+  background-color: rgba(3, 133, 3, 0.699);
+  border: rgb(255, 255, 255); //borders are for the purpose of building and development, showing where the component is.
+  border-style: solid;
+  border-width: 1px;
 }
 
 .navlinkholder {
