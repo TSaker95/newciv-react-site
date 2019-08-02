@@ -28,17 +28,17 @@ const Slideshow = () => {
         <Slide {...properties}>
           <div className="each-slide">
             <div style={{ backgroundImage: `url(${slideImages[0]})` }}>
-              <span>Explore The Nation</span>
+              <span>Cosplay Projects</span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{ backgroundImage: `url(${slideImages[1]})` }}>
-              <span>3D Printing The Nation</span>
+              <span>3D Printing!</span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{ backgroundImage: `url(${slideImages[2]})` }}>
-              <span>Drawings of The Nation</span>
+              <span>My Drawings!</span>
             </div>
           </div>
         </Slide>

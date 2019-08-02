@@ -80,6 +80,22 @@ html {
   overflow: hidden;
 }
 
+.imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  width: 100%;
+  height: auto;
+  border: rgba(7, 170, 1, 0.993);
+  border-style: solid;
+  border-width: 2px;
+  -webkit-box-shadow: 1px 1px 5px 5px black;
+          box-shadow: 1px 1px 5px 5px black;
+}
+
 .imgicons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -204,6 +220,16 @@ html {
   font-weight: bold;
   -webkit-box-shadow: 1px 1px 5px 5px black;
           box-shadow: 1px 1px 5px 5px black;
+}
+
+.artsectiontext {
+  padding: 1% 5% 1% 5%;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  -webkit-box-shadow: 1px 1px 5px 5px black;
+          box-shadow: 1px 1px 5px 5px black;
+  width: 100%;
 }
 
 .sectiontextfollow {

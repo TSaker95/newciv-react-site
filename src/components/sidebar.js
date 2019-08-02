@@ -1,39 +1,43 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router";
 import App from "../App.js";
 import Art from "../Artpage.js";
 import { slide as Menu } from "react-burger-menu";
 
-class Side extends Component {
-  render() {
-    return (
-      <Menu>
-        <Router>
-          <div>
-            <ul className="navbar-nav mr-auto">
-              <li>
-                <Link to={"../App.js"} className="nav-link">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link to={"../Artpage.js"} className="nav-link">
-                  Contact
-                </Link>
-              </li>
-            </ul>
+export const Side = props => {
+  return <Menu />;
+};
 
-            <hr />
-            <Switch>
-              <Route exact path="../App.js" component={App} />
-              <Route path="../Artpage.js" component={Art} />
-            </Switch>
-          </div>
-        </Router>
-      </Menu>
-    );
-  }
-}
+// class Side extends Component {
+//   render() {
+//     return (
+//       <Menu>
+//         <Router>
+//           <div>
+//             <ul className="navbar-nav mr-auto">
+//               <li>
+//                 <Link to={"../App.js"} className="nav-link">
+//                   Home
+//                 </Link>
+//               </li>
+//               <li>
+//                 <Link to={"../Artpage.js"} className="nav-link">
+//                   Contact
+//                 </Link>
+//               </li>
+//             </ul>
+
+//             <hr />
+//             <Switch>
+//               <Route exact path="../App.js" component={App} />
+//               <Route path="../Artpage.js" component={Art} />
+//             </Switch>
+//           </div>
+//         </Router>
+//       </Menu>
+//     );
+//   }
+// }
 
 export default Side;
 

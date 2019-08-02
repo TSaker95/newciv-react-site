@@ -76,6 +76,18 @@ html {
   }
 }
 
+.imgs {
+  display: flex;
+  flex: wrap;
+  width: 100%;
+  height: auto;
+
+  border: rgba(7, 170, 1, 0.993);
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 1px 1px 5px 5px rgb(0, 0, 0);
+}
+
 .imgicons {
   display: flex;
   flex: wrap;
@@ -179,6 +191,16 @@ html {
   font-size: 1.5rem;
   font-weight: bold;
   box-shadow: 1px 1px 5px 5px rgb(0, 0, 0);
+  // width: 100%;
+}
+
+.artsectiontext {
+  padding: 1% 5% 1% 5%;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px 5px rgb(0, 0, 0);
+  width: 100%;
 }
 
 .sectiontextfollow {
