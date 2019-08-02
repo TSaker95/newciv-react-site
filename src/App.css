@@ -5,7 +5,6 @@ html {
   /* Center the image */
   background-repeat: repeat;
   /* Do not repeat the image */
-  background-size: contain;
 }
 
 .nav {

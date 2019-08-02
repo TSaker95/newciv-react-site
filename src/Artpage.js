@@ -6,6 +6,7 @@ import SideBar from "./components/sidebar.js";
 import Slideshow from "./components/artslideshow.js";
 import Artintro from "./components/artintro.js";
 import Projectprints from "./components/3dobjects.js";
+import Cosplay from "./components/cosplay.js";
 
 function Art() {
   return (
@@ -15,6 +16,7 @@ function Art() {
       <div className="pagemarginart">
         <Slideshow />
         <Artintro />
+        <Cosplay />
         <Projectprints />
       </div>
 
